@@ -30,7 +30,7 @@ jobs:
           context: .
           push: true
           tags: |
-            dharmeshkumar24012/hello-dharmesh-flask:${{ github.ref_name }}
+            dharmeshkumar2434/hello-dharmesh-flask:${{ github.ref_name }}
           
 
       - name: Log out from Docker Hub
